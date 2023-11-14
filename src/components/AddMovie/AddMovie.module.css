@@ -1,0 +1,48 @@
+/* AddMovie.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+
+}
+
+.addmovie {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ff0000;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.addmovie__input {
+  margin-bottom: 20px;
+  padding: 13px;
+  font-size: 15px;
+}
+
+.addmovie__button {
+  background-color: #ff0000;
+  color: #000000;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.addmovie__button:hover {
+  background-color: rgb(255, 255, 0);
+}
+
+/* Style for the select dropdown */
+.addmovie__input#option {
+  padding: 10px;
+  font-size: 15px;
+}
+
+/* Additional styling for other form elements if needed */
